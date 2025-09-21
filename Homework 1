@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Про мене</title>
+</head>
+<body>
+    <h1>Привіт, це моя сторінка!</h1>
+    <img src="photo/me.jpg" alt="Моє фото" width="200">
+
+    <h2>Коротка інформація</h2>
+    <ul>
+        <li>Ім'я: Олександр</li>
+        <li>Улюблена команда: FC Barcelona</li>
+        <li>Домашні улюбленці: собака та кіт</li>
+        <li>Улюблений виконавець: Imagine Dragons</li>
+    </ul>
+
+    <h2>Навігація</h2>
+    <ul>
+        <li><a href="pages/contact.html">Контакти</a></li>
+        <li><a href="pages/gallery.html">Галерея</a></li>
+    </ul>
+</head>
+<body>
+    <h1>Контактна інформація</h1>
+    <p>Електронна пошта: <a href="podogreff2003@gmail.com">podogreff2003@gmail.com</a></p>
+    <p>Телефон: +38063 123 45 67</p>
+<h1>Моя галерея</h1>
+    <figure>
+        <img src="../photo/dog.jpg" alt="Мій собака" width="200">
+        <figcaption>Мій собака</figcaption>
+    </figure>
+    <figure>
+        <img src="" alt="Мій кіт" width="200">
+        <figcaption>Мій кіт</figcaption>
+    </figure>
+    <figure>
+        <img src="../photo/me.jpg" alt="Я" width="200">
+        <figcaption>Я</figcaption>
+    </figure>
+
+    <p><a href="../index.html">На головну</a></p>
+</body>
+</html>
