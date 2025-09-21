@@ -3,43 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Про мене</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Привіт, це моя сторінка!</h1>
-    <img src="photo/me.jpg" alt="Моє фото" width="200">
+    <header id="header">
+        <h1 class="title">Привіт, це моя сторінка!</h1>
+    </header>
 
-    <h2>Коротка інформація</h2>
-    <ul>
-        <li>Ім'я: Олександр</li>
-        <li>Улюблена команда: FC Barcelona</li>
-        <li>Домашні улюбленці: собака та кіт</li>
-        <li>Улюблений виконавець: Imagine Dragons</li>
-    </ul>
+    <main id="main">
+        <img src="photo/me.jpg" alt="Моє фото" width="200" class="profile-photo">
 
-    <h2>Навігація</h2>
-    <ul>
-        <li><a href="pages/contact.html">Контакти</a></li>
-        <li><a href="pages/gallery.html">Галерея</a></li>
-    </ul>
-</head>
-<body>
-    <h1>Контактна інформація</h1>
-    <p>Електронна пошта: <a href="podogreff2003@gmail.com">podogreff2003@gmail.com</a></p>
-    <p>Телефон: +38063 123 45 67</p>
-<h1>Моя галерея</h1>
-    <figure>
-        <img src="../photo/dog.jpg" alt="Мій собака" width="200">
-        <figcaption>Мій собака</figcaption>
-    </figure>
-    <figure>
-        <img src="" alt="Мій кіт" width="200">
-        <figcaption>Мій кіт</figcaption>
-    </figure>
-    <figure>
-        <img src="../photo/me.jpg" alt="Я" width="200">
-        <figcaption>Я</figcaption>
-    </figure>
+        <section id="info">
+            <h2>Коротка інформація</h2>
+            <ul class="info-list">
+                <li>Ім'я: Олександр</li>
+                <li>Улюблена команда: FC Barcelona</li>
+                <li>Домашні улюбленці: собака та кіт</li>
+                <li>Улюблений виконавець: Imagine Dragons</li>
+            </ul>
+        </section>
 
-    <p><a href="../index.html">На головну</a></p>
+        <section id="nav">
+            <h2>Навігація</h2>
+            <ul class="nav-list">
+                <li><a href="pages/contact.html">Контакти</a></li>
+                <li><a href="pages/gallery.html">Галерея</a></li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Контактна інформація</h1>
+    </header>
+
+    <main>
+        <p class="contact">Електронна пошта: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+        <p class="contact">Телефон: +380 99 123 45 67</p>
+        <p class="contact">Instagram: <a href="https://instagram.com/example" target="_blank">@example</a></p>
+
+        <p><a href="../index.html">На головну</a></p>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Моя галерея</h1>
+    </header>
+
+    <main>
+        <figure class="gallery-item">
+            <img src="../photo/dog.jpg" alt="Мій собака" width="200">
+            <figcaption>Мій собака</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+            <img src="../photo/cat.jpg" alt="Мій кіт" width="200">
+            <figcaption>Мій кіт</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+            <img src="../photo/me.jpg" alt="Я" width="200">
+            <figcaption>Я</figcaption>
+        </figure>
+
+        <p><a href="../index.html">На головну</a></p>
+    </main>
+</body>
+</html>
+
